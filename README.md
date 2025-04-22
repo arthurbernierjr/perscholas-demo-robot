@@ -35,3 +35,27 @@ Per Scholas Demo Robot is a full-stack web application designed to help e-commer
 *   **Deployment:** Heroku (implied by `Procfile`) / Netlify (implied by `_redirects`)
 
 ## Project Structure 
+
+
+├── backend/
+│ ├── controllers/
+│ ├── models/
+│ ├── routes/
+│ ├── tests/
+│ ├── .env # Environment variables (Needs creation)
+│ ├── .gitignore
+│ ├── package.json
+│ ├── Procfile
+│ └── server.js
+├── frontend/
+│ ├── public/
+│ ├── src/
+│ │ ├── modules/
+│ │ ├── App.js
+│ │ ├── index.css
+│ │ └── index.js
+│ ├── .env # Environment variables (Provided)
+│ ├── .gitignore
+│ ├── package.json
+│ └── README.md
+└── README.md # This file
